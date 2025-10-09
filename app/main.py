@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from analytics_routes import router as analytics_router
+from .analytics_routes import router as analytics_router
 
 app = FastAPI(title="API Consultas Analíticas")
 

@@ -10,3 +10,7 @@ INFO:     127.0.0.1:49208 - "GET /analytics/adopted-by-center HTTP/1.1" 200 OK
 INFO:     127.0.0.1:49216 - "GET /analytics/vaccination-status HTTP/1.1" 200 OK
 INFO:     127.0.0.1:42782 - "GET /analytics/mongodb-health HTTP/1.1" 200 OK
 INFO:     127.0.0.1:58432 - "GET /analytics/pet-histories?limit=3 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [364492]
