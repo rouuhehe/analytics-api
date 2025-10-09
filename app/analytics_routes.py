@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from sqlalchemy import text
-from .db import get_pg_db, get_mysql_db, histories_collection
+from db import get_pg_db, get_mysql_db, histories_collection
 
 router = APIRouter(prefix="/analytics")
 
